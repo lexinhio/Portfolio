@@ -235,7 +235,7 @@ body main section div p {
   border-radius: 10px;
     gap: 6%;
 }
-.Projets a :visited{
+.Projets a:visited{
     color:black}
 
 #Projet-row {

@@ -238,15 +238,16 @@ body main section div p {
 .Projets a:visited{
     color:black}
 .Projets a:hover {
-    transform:scale(1.2);
-    margin:15px;
-    border: solid 2px black;
-    box-shadow: 5px 5px 0px 0px black;
-    border-radius: 10px;
-   font-weight:bold;
+    transform:scale(0.8);
+    box-shadow: 0px 0px 0px 0px;
 }
 .Projets a{
-    margin:10px}
+  margin:15px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 0px 0px black;
+  border-radius: 10px;
+ font-weight:bold;
+ padding: 10px;}
 
 #Projet-row {
   display: flex;

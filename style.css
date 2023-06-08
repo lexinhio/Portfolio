@@ -245,6 +245,8 @@ body main section div p {
     border-radius: 10px;
    font-weight:bold;
 }
+.Projets a{
+    margin:10px}
 
 #Projet-row {
   display: flex;

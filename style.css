@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+}
+header div {
+  width: 100%;
+  min-height: 100px;
+  background-image: url("./img/fond-banniere-abstrait-violet-gris-colore-espace-copie-vide_168310-542.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+header div h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+  width: 70%;
+}
+body main {
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#Projets img {
+  border-radius: 20px;
+  align-self: center;
+  padding-top: 10px;
+  height: 100%;
+}
+header nav {
+  display: flex;
+  height: 40px;
+  margin: none;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  z-index: 1;
+}
+header nav ul li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  justify-content: center;
+  align-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.2s ease;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  align-self: center;
+  justify-self: center;
+  height: 30px;
+  font-size: 30px
+}
+#navelement:hover {
+  text-decoration: none;
+  background-color: #cfdbd5;
+  color: black;
+  transform: scale(1.1);
+  height: 100%;
+  font-family: "Kanit", sans-serif;
+  padding-bottom: 10px;
+}
+#navelement:hover a {
+  color: black;
+}
+
+body main section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+body main section  {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+  border-radius: 10px;
+}
+body main section div {
+    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+body main section div p {
+  padding: 10px;
+}
+body main section div h2 {
+  text-align: center;
+  justify-content: center;
+}
+.actif {
+  text-decoration: underline;
+}
+#Presentation_section div img {
+  width: 10%;
+  height: 20%;
+  align-self: center;
+}
+#test:hover {
+  text-decoration: none;
+  background-color: #cfdbd5;
+  color: black;
+  transform: scale(1.1);
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  border-radius: 0;
+}
+.sub-menu {
+  visibility: hidden;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  height: auto;
+  opacity: 0;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  top: 100%;
+  opacity: 1;
+  background-color: rgb(47, 79, 79);
+  width: 100%;
+  background-color: #cfdbd5;
+  font-family: "Kanit", sans-serif;
+}
+.sub-menu li {
+  float: none;
+  height: auto;
+}
+.sub-menu li a {
+  height: auto;
+  text-align: center;
+  font-weight: normal;
+}
+.sub-menu li:hover {
+  border: 3px solid;
+  width: 90%;
+}
+#test:hover ul {
+  visibility: visible;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  align-self: flex-end;
+  width: 100%;
+  background-color: #8f9998;
+  justify-content: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+footer ul li img {
+  height: 50px;
+  width: 50px;
+}
+footer ul li p {
+  text-align: center;
+  margin: 0;
+}
+body main section div p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
+.Projets {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #e1dfea;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+
+#Projet-row {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#Projet-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Projet-row figure {
+  width: 20%;
+  margin-right: 5%;
+}
+
+#Projet-row-reverse figure {
+  width: 20%;
+  margin-left: 5%;
+}
+
+#Projets div div h2 {
+  align-self: flex-start;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+#Projets div p {
+  align-self: flex-start;
+  width: 100%;
+}
+.Projets {
+  gap: 6%;
+}
+.Projets div{
+    width:60%;
+}
+#Projet2 div p {
+  padding-right: 0;
+}
+
+#Projet4 div p {
+  margin: 0;
+}
+#Projet6 div p {
+  padding-right: 0;
+}
+#Projets div figure img {
+  width: 100%;
+  height: 100%;
+}
+ul{
+    list-style: none;
+}
+#lst_sport {
+  margin: 0;
+  padding: 0;
+}
+#presentation_div{
+width:30%;
+border-radius: 20px;
+background-color: #e1dfea;
+display: flex;
+flex-direction: column;
+flex-wrap:wrap;
+}
+#presentation_div p{
+    margin: 10px;
+}
+#Presentation_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#Competences {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background-color:#e1dfea;
+}
+#lst_langages {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  padding: 0;
+}
+.lst_competence {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin:15px
+}
+#lst_langages li img {
+  max-height: 50px;
+  max-width: 50px;
+  width: auto;
+  height: auto;
+}
+#lst_langages li a {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+.RetourEnHaut {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-90deg);
+  font-size: 30px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.div_logi {
+    min-width:  150px;
+  width: 17%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: center;
+  border: solid 2px grey;
+  padding: 10px;
+  background-color: #dcdcdc;
+  border-radius: 20px;
+  justify-content: flex-start;
+}
+.div_logi li a {
+    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.lst_logi {
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+.lst_logi li img {
+  max-height: 50px;
+  max-width: 50px;
+  width: auto;
+  height: auto;
+}
+.lst_logi li:hover {
+  transform: scale(1.1);
+  border: solid 2px black;
+  border-radius: 40px;
+  padding: 20px;
+  background-color: #a9a9a9;
+  margin:5px
+}
+#lst_langages li:hover {
+  transform: scale(1.1);
+  border: solid 2px black;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: #a9a9a9;
+}
+.div_logi li a:visited {
+  color: black;
+}
+#lst_langages li a:visited {
+  color: black;
+}
+.competence_ecrit {
+    width:45%;
+    margin: 0;
+}
+
+#Competence_sans_image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  background: none;
+}
+.competence_ecrit  p{
+    font-weight: normal;
+}
+li{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#Competences h2{
+    align-self: center;
+}
+#logi_div_principal{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+}
+#logi_div_principal h2{
+    width:100%;
+    text-align: center;
+}
+#Presentation img{
+    border-radius: 20px;
+
+
+}

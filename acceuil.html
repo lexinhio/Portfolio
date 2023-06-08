@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div><h1>Alexis Chabanne</h1></div>
+      <nav>
+        <ul>
+          <li id="navelement"><a href="#Presentation">Présentation</a></li>
+          <li id="test">
+            <a href="#Projets">Mes Projets</a>
+            <ul class="sub-menu">
+              <li><a href="#Projet1">Projet de trie de dépêches</a></li>
+              <li>
+                <a href="#Projet2">Projet de création de base données </a>
+              </li>
+              <li><a href="#Projet3">Projet de site institutionel </a></li>
+              <li><a href="#Projet4">Projet de site sur le sport</a></li>
+              <li><a href="#Projet5">Projet d'application d'évènements </a></li>
+            </ul>
+          </li>
+          <li id="test">
+            <a href="#Competences">Mes Compétences</a>
+            <ul class="sub-menu">
+              <li><a href="#Langues">Langues</a></li>
+              <li><a href="#Edition">Outils de conception et d'édition </a></li>
+              <li><a href="#Programmation">Programmation</a></li>
+              <li><a href="#Langages">Langages de programmation</a></li>
+              <li><a href="#Collaboration">Travail en collaboration</a></li>
+              <li><a href="#logiciel">Logiciel</a></li>
+            </ul>
+          </li>
+          <li id="navelement"><a href="#contact">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a class="RetourEnHaut" href="#">></a>
+      <section id="Presentation">
+        <img src="img/getPhotonortmal.jpg" alt="Photo de profil" />
+      </section>
+      <section id="Presentation_section">
+        <div id="presentation_div">
+          <h2>Qui suis-je ?</h2>
+          <p>
+            Je me présente,<br />
+            Je suis un jeune homme né le 12 mai 2004 à Aix-Les-Bains. <br />J’ai
+            donc grandi en Savoie dans un petit village appelé Le
+            Viviers-du-Lac. Actuellement étudiant en BUT informatique à l’IUT2
+            de Grenoble Alpes, je suis passionné de sport et d’informatique, ce
+            qui m’a amené à réaliser des projets en lien avec ces deux passions.
+            <br />Je pratique le football depuis 14 ans, ce qui m’a permis de
+            développer des capacités à travailler et collaborer en équipe. De
+            plus, je pratique la course à pied et m’entraîne chaque semaine à un
+            rythme régulier, ce qui m’a appris à suivre un programme et à m’y
+            tenir.
+          </p>
+        </div>
+        <div id="presentation_div">
+          <h2>Mes diplômes :</h2>
+          <img src="./img/graduation-cap_1f393.png" />
+          <ul>
+            <li>Brevet des collèges mention Très Bien</li>
+            <li>
+              Baccalauréat mention Très Bien spécilaité Math, numérique et
+              science informatique
+            </li>
+          </ul>
+        </div>
+        <div id="presentation_div">
+          <h2>Mon Parcours scolaire:</h2>
+          <p>
+            J’ai effectué ma scolarité maternelle et primaire à l’école du
+            Viviers-du-Lac. <br />J’ai poursuivi au collège Marlioz à
+            Aix-les-Bains où j’y ai passé mon brevet. <br />Je suis ensuite allé
+            au lycée polyvalent de Marlioz à Aix-Les-Bains où j’y ai passé mon
+            baccalauréat. <br />Actuellement, j’étudie à l’IUT2 de Grenoble en
+            BUT informatique.
+          </p>
+        </div>
+      </section>
+      <h1>Mes Projets :</h1>
+      <section id="Projets">
+        <div class="Projets" id="Projet-row">
+          <div id="Projet1">
+            <h2>Projets de tri de dépêches :</h2>
+            <p>
+              Ce projet consiste à mettre en place en une semaine des algorithme
+              de tri qui permette de trier une liste de dépêches selon sa
+              catégories à l'aide d'un code écrit en langauge JAVA.
+              <br />
+              Ce projet consiste à implémenter en une semaine des algorithmes de
+              tri qui permettent de classer une liste de dépêches selon leur
+              catégorie à l’aide d’un code écrit en langage Java.<br />
+              Il s’agit d’un projet universitaire en équipe de deux. Nous avions
+              à notre disposition différentes listes de dépêches qu’il fallait
+              trier en étant le plus efficaces. L’efficacité était jugée selon
+              deux critères : le nombre de comparaisons et le temps d’exécution
+              de l’algorithme. Le but était de comparer différents algorithmes
+              de tri tels que le tri à bulle, le tri par insertion ou encore le
+              tri fusion. Un compte rendu en anglais était aussi demandé. Il
+              fallait rendre compte des difficultés rencontrées, des différents
+              algorithmes et solutions testés afin d’optimiser le plus possible
+              ainsi que l’organisation du groupe. Nous devions rédiger ce
+              dernier dans un vocabulaire informatique. Ce projet était un petit
+              projet qui donne un aperçu de ce que des projets d’équipe en
+              entreprise peuvent demander.
+            </p>
+          </div>
+          <figure>
+            <img src="img/dépêches.avif" alt="image de d'optimisation" />
+          </figure>
+        </div>
+        <div class="Projets" id="Projet-row-reverse">
+          <div id="Projet2">
+            <h2>Projet de base de données :</h2>
+            <p>
+              Ce projet est un projet universitaire. Il a pour objectifs de
+              créer en travaillant par groupe de deux personnes une base de
+              données PostgreSQL à partir de données contenues dans un fichier
+              CSV. <br />Ensuite, à l’aide de la base de données, il fallait
+              répondre à des questions et rendre un compte rendu complété des
+              requêtes SQL qui nous ont permis d’obtenir les informations
+              nécessaires pour répondre aux questions. <br />Les données
+              étudiées portaient sur la catastrophe du naufrage du Titanic, plus
+              précisément sur ses passagers, les victimes et les survivants.
+              Tout d’abord, nous avons créé une base de données en filtrant les
+              données utiles ou non au compte rendu et en les répartissant en
+              différentes tables afin de pouvoir séparer par catégorie les
+              informations. <br />Il a fallu ensuite récupérer les informations
+              précises et les calculer à partir d’informations disponibles en
+              faisant le moins de requêtes différentes possibles. On a donc
+              utilisé des sous-requêtes. <br />Pour finir, il a fallu
+              interpréter les requêtes et en déduire combien de personnes
+              auraient pu être sauvées dans le meilleur des cas et pourquoi ce
+              nombre n’a-t-il pas été atteint.
+            </p>
+          </div>
+          <figure>
+            <img src="img/database-icon-logo-modern-line-260nw-517584376.jpg" />
+          </figure>
+        </div>
+        <div class="Projets" id="Projet-row">
+          <div id="Projet3">
+            <h2>Projet desite web institutionel de l'entreprise Orange :</h2>
+            <p>
+              Ce projet est un projet universitaire. Il a pour but de créer un
+              site web institutionnel de l’entreprise Orange1. <br />Il s’est
+              réalisé par groupe de trois personnes. Il se compose en deux
+              parties : la première était une recherche d’informations et la
+              rédaction d’un recueil de besoins afin d’avoir les données
+              nécessaires au contenu du site web. <br />Ce projet a demandé
+              d’appuyer un peu plus le point sur l’environnement économique et
+              écologique de l’entreprise2. Une maquette du site internet a été
+              ensuite réalisée. Le site internet devait être beaucoup plus
+              simple que le site d’Orange. <br />Il devait aussi utiliser un
+              vocabulaire adapté à des élèves de troisième. <br />Ce projet
+              consistait à réaliser comme en entreprise un site internet avec
+              ses étapes de conception.
+            </p>
+          </div>
+          <figure>
+            <img
+              src="img/icone-domaine-site-web-dans-style-comique-illustration-vectorielle-dessin-anime-adresse-internet-globale-fond-blanc-isole-concept-entreprise-effet-splash-serveur_157943-9360.avif"
+            />
+          </figure>
+        </div>
+        <div class="Projets" id="Projet-row-reverse">
+          <div id="Projet4"> 
+            <h2>
+              Projet de site web à la fois réseau social et encyclopédie sur le
+              sport :
+            </h2>
+            <p>
+              Ce projet est une initiative personnelle. L’objectif est de créer
+              un site web qui combine les fonctions d’un site informatif à la
+              manière de Wikipédia, d’un réseau social et d’un site de suivi des
+              résultats sportifs en direct. <br />Le thème du site est le sport.
+              Il est codé en PHP, HTML, CSS et JavaScript. Le site vise à
+              rassembler une communauté de passionnés autour d’un sport, en leur
+              offrant un espace pour se retrouver, partager et rencontrer
+              d’autres amateurs. <br />Le site web se compose de plusieurs pages
+              :
+            </p>
+            <ul id="lst_sport">
+              <li>
+                Une page de type Wikipédia avec l’histoire d’un sport et ses
+                événements marquants
+              </li>
+              <li>Une page palmarès avec le palmarès de chaque sport</li>
+              <li>Une page d’actualité regroupant les actualités du sport</li>
+              <li>
+                Une page où l’on retrouve les résultats en direct des
+                compétitions et matchs en cours
+              </li>
+              <li>
+                Une page forum, où l’on peut partager dans plusieurs forums
+                notre avis et échanger avec d’autres personnes autour d’un sujet
+                sportif
+              </li>
+              <li>Une page profil qui affiche votre compte et profil</li>
+              <li>
+                Une page compétitions qui affiche les prochaines compétitions à
+                venir et surtout les compétitions amateurs
+              </li>
+            </ul>
+            <br />
+            <p>
+              Ce site internet est complexe et long à réaliser car il nécessite
+              des bases de données en SQL et c’est pour cela que sa réalisation
+              s’étend sur plusieurs années.
+            </p>
+          </div>
+          <figure>
+            <img
+              src="img/chaine-sport-illustration-appareil-technologie-internet-diffuse-video-ligne-ecran-accueil-activite-entrainement-programme-telephonie-numerique-divertissement-moderne-concept-communication_109722-2472.avif"
+            />
+          </figure>
+        </div>
+        <div class="Projets" id="Projet-row">
+          <div id="Projet5">
+            <h2>
+              Projet d'application de création et de gestion d'évènnements de
+              course à pied :
+            </h2>
+            <p>
+              Il s’agit d’un projet universitaire réalisé en groupe de 5
+              personnes. Le concept consiste à créer de A à Z une application
+              hors réseau de création et de gestion d’événements de course à
+              pied. Ce projet comprend toutes les étapes, de la recherche du
+              concept à la réalisation finale de l’application. Ce projet a
+              nécessité un travail d’équipe important. Nous avons dû nous
+              organiser pour nous répartir les tâches. Tout d’abord, lors de la
+              définition des besoins et des contraintes. <br />Une fois les
+              contraintes identifiées et les besoins définis, nous avons élaboré
+              le dossier de conception. Ce dossier contient différents
+              diagrammes, tels que des diagrammes de cas d’utilisation, des
+              diagrammes de classes ou encore des diagrammes de séquences. Ce
+              dossier comprend également la description des cas d’utilisation et
+              des scénarios alternatifs de ces cas. Tous ces diagrammes servent
+              à définir une route à suivre dans la réalisation du projet, mais
+              il a fallu aussi définir la gestion de la création de cette
+              application. <br />Pour cela, nous avons établi des diagrammes
+              logiques regroupant les étapes à suivre lors d’une action de
+              l’application, comme la saisie du nom de l’événement ou encore
+              l’inscription d’un coureur. <br />Un document de conception de
+              l’interface a été également réalisé. Il est composé de plusieurs
+              wireframes et de plusieurs personas. <br />Grâce à tous ces
+              documents, l’application a pu être programmée lors d’une semaine
+              bloquée dédiée à cette action. Les fonctions et classes objet de
+              l’application ont été codées en Java. Du JavaFX a été quant à lui
+              utilisé pour l’interface. <br />Ce projet est l’un de mes plus
+              gros projets pour l’heure actuelle et m’a permis de découvrir le
+              travail d’équipe avec un plus grand nombre de personnes et sur une
+              plus longue période. J’y ai ainsi pu voir chaque étape d’une
+              réalisation.
+            </p>
+          </div>
+          <figure>
+            <img src="img/istockphoto-1430871384-612x612.jpg" />
+          </figure>
+        </div>
+      </section>
+      <h1>Mes compétences :</h1>
+      <section id="Competences">
+        <div id="Competence_sans_image">
+          <div class="competence_ecrit">
+            <h2 id="Langues">Langues Vivantes :</h2>
+            <ul id="lst_competence">
+              <li>Anglais niveau B1</li>
+              <li>Allemand niveau A2</li>
+            </ul>
+          </div>
+          <div class="competence_ecrit">
+            <h2 id="Edition">Outils de conception et d'édition :</h2>
+            <ul class="lst_competence">
+              <li>
+                Présentation orale à l’aide de diapositives réalisées avec des
+                outils
+              </li>
+              <li>
+                Utilisation d’outils de rédaction de compte rendu et de
+                présentation
+              </li>
+              <li>Utilisation d'outils de montages vidéo, audios et photos</li>
+            </ul>
+          </div>
+          <div class="competence_ecrit">
+            <h2 id="Programmation">
+              Progamammation et conception informatique :
+            </h2>
+            <ul class="lst_competence">
+              <li>
+                Conception de diagrammes de conception, tels que des diagrammes
+                de séquences, de cas d’utilisation, de classes, de wireframes
+              </li>
+              <li>Conception d'IHM, mise en place d'architecture MVC</li>
+            </ul>
+          </div>
+          <div class="competence_ecrit">
+            <h2 id="Collaboration">Travail en collaboration :</h2>
+            <p>
+              Je sais travailler et échanger en équipe.<br />
+              J’ai déjà travaillé en équipe réduite.<br />
+              Je sais aussi demander de l’aide à une personne extérieure pour un
+              projet.
+            </p>
+          </div>
+        </div>
+        <h2 id="Langages">Langages de programmation :</h2>
+        <ul id="lst_langages">
+          <li>
+            <a href="https://www.java.com/fr/"
+              ><p>JAVA</p>
+              <img src="img/Java_Logo.svg.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://openjfx.io/"
+              ><p>JAVAFX</p>
+              <img src="img/JavaFX.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              ><p>HTML</p>
+              <img src="img/HTML5_logo_and_wordmark.svg.png"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+              ><p>CSS</p>
+              <img src="img/1452px-CSS3_logo_and_wordmark.svg.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.python.org/"
+              ><p>Python</p>
+              <img src="img/Python-logo-notext.svg.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Glossary/SQL"
+              ><p>SQL</p>
+              <img src="img/Sql_data_base_with_logo.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              ><p>JavaScript</p>
+              <img src="img/JavaScript-logo.png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://scratch.mit.edu/"><p>Scratch</p><img src="img/scratch.png"></a>
+          </li>
+          <li>
+            <a href="https://fr.wikipedia.org/wiki/R_(langage)"
+              ><p>R</p>
+              <img src="img/formation-langage-r.png"
+            /></a>
+          </li>
+        </ul>
+        <div id="logi_div_principal">
+        <h2 id="logiciel">Logiciel :</h2>
+          <div class="div_logi">
+            <h3>Edition :</h3>
+            <ul class="lst_logi">
+            <li>
+              <a
+                href="https://www.nch.com.au/wavepad/fr/index.html?ns=true&kw=wavepad&gclid=CjwKCAjw1YCkBhAOEiwA5aN4ARN7Ghqc0GeMb-8djK3srqbjXN1O80B-mgZsxTLZjymUmejYipldGRoCKX8QAvD_BwE"
+                ><p>WavePad</p>
+                <img src="img/wavePad.png" alt="logo wavepad"
+              /></a>
+            </li>
+            <li>
+              <a href="https://krita.org/fr/"
+                ><p>Krita</p>
+                <img src="img/krita.png" alt="logo krita"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.adobe.com/fr/products/photoshop/landpb.html?gclid=CjwKCAjw1YCkBhAOEiwA5aN4AWjb70VXkCLMHRb55AqtULXqVbYEZnO1ugHfxfZ6gDQAYMZL3hFuWBoCg1YQAvD_BwE&mv=search&mv=search&sdid=LZ32SYVR&ef_id=CjwKCAjw1YCkBhAOEiwA5aN4AWjb70VXkCLMHRb55AqtULXqVbYEZnO1ugHfxfZ6gDQAYMZL3hFuWBoCg1YQAvD_BwE:G:s&s_kwcid=AL!3085!3!600062587911!e!!g!!photoshop!1435912275!56537390339&gad=1"
+                ><p>Photoshop</p>
+                <img
+                  src="img/Adobe_Photoshop_CC_icon.svg.png"
+                  alt="logo photoshop"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://filmora.wondershare.net/fr/logiciel-montage-video/ad-filmora.html?gclid=CjwKCAjw1YCkBhAOEiwA5aN4Aefnn_g18SIMfXNXkys6YYGUguJ7DuklR-Yv5CfbL697ZypiICLcvhoC3XMQAvD_BwE"
+                ><p>Filmora</p>
+                <img
+                  src="img/Wondershare_filmora_logo.svg.png"
+                  alt="logo filmora"
+              /></a>
+            </li>
+        </ul>
+          </div>
+          <div class="div_logi">
+            <h3>Présentation :</h3>
+            <ul class="lst_logi">
+            <li>
+              <a href="https://www.canva.com/"
+                ><p>Canva</p>
+                <img src="img/canva-logo.png" alt="logo canva"
+              /></a>
+            </li>
+            <li>
+              <a href="https://auth.genial.ly"
+                ><p>Genially</p>
+                <img src="img/genially.png" alt="logo genially"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.microsoft.com/fr-fr/microsoft-365/p/powerpoint/CFQ7TTC0HLG1?activetab=pivot:pr%C3%A9sentation%C2%A0tab&ef_id=_k_CjwKCAjw1YCkBhAOEiwA5aN4ARLtO2DaF3kEol3Xno1rXFUwvzYZs8R9mGazSzyhfZ-5R0SzGsoVSxoCDjEQAvD_BwE_k_&OCID=AIDcmm6h6yvz1x_SEM__k_CjwKCAjw1YCkBhAOEiwA5aN4ARLtO2DaF3kEol3Xno1rXFUwvzYZs8R9mGazSzyhfZ-5R0SzGsoVSxoCDjEQAvD_BwE_k_&gclid=CjwKCAjw1YCkBhAOEiwA5aN4ARLtO2DaF3kEol3Xno1rXFUwvzYZs8R9mGazSzyhfZ-5R0SzGsoVSxoCDjEQAvD_BwE"
+                ><p>PowerPoint</p>
+                <img
+                  src="img/Microsoft_PowerPoint_2013-2019_logo.svg.png"
+                  alt="logo Powerpoint"
+              /></a>
+            </li>
+            <li>
+              <a href="https://fr.libreoffice.org/discover/impress/"
+                ><p>LibreOffice Impress</p>
+                <img
+                  src="img/langfr-220px-LibreOffice_Impress_icon_3.3.1_48_px.svg.png"
+                  alt="logo LibreOffice Impress"
+              /></a>
+            </li>
+        </ul>
+          </div>
+          <div class="div_logi">
+            <h3>Traitement de texte :</h3>
+            <ul class="lst_logi">
+            <li>
+              <a
+                href="https://www.microsoft.com/fr-fr/microsoft-365/p/word/CFQ7TTC0HLKM?activetab=pivot:pr%C3%A9sentationtab&ef_id=_k_CjwKCAjw1YCkBhAOEiwA5aN4AT1OoVaSMF3t_DCNUuDTlaRsgpTqfawOwbQvfVno4LPQtgmB2o5u4RoC5FgQAvD_BwE_k_&OCID=AIDcmm6h6yvz1x_SEM__k_CjwKCAjw1YCkBhAOEiwA5aN4AT1OoVaSMF3t_DCNUuDTlaRsgpTqfawOwbQvfVno4LPQtgmB2o5u4RoC5FgQAvD_BwE_k_&gclid=CjwKCAjw1YCkBhAOEiwA5aN4AT1OoVaSMF3t_DCNUuDTlaRsgpTqfawOwbQvfVno4LPQtgmB2o5u4RoC5FgQAvD_BwE"
+                ><p>Word</p>
+                <img src="img/Word-logo.png" alt="logo Word"
+              /></a>
+            </li>
+            <li>
+              <a href="https://fr.libreoffice.org/discover/writer/"><p>LibreOffice Writer</p>
+                <img
+                  src="img/1200px-LibreOffice_Writer_icon_3.3.1_48_px.svg.png"
+                  alt="logo LibreOffice Writer"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.google.fr/intl/fr/docs/about/"
+                ><p>Google Docs</p>
+                <img
+                  src="img/Google_Docs_logo_(2014-2020).svg.png"
+                  alt="logo Google Docs"
+              /></a>
+            </li>
+            </ul>
+          </div>
+          <div class="div_logi">
+            <h3>Conception :</h3>
+            <ul class="lst_logi">
+            <li>
+              <a href="https://www.visual-paradigm.com/"
+                ><p>Visual Paradigm</p>
+                <img src="img/visual paradigm.png" alt="logo Visual Paradigm"
+              /></a>
+            </li>
+            <li>
+              <a href="https://whimsical.com"
+                ><p>Whimscall</p>
+                <img src="img/whimsicall.png" alt="logo Whimsicall"
+              /></a>
+            </li>
+            </ul>
+          </div>
+          <div class="div_logi">
+            <h3>Programmation :</h3>
+            <ul class="lst_logi">
+            <li>
+              <a href="https://pyzo.org/"
+                ><p>Pyzo</p>
+                <img src="img/pyzo.png" alt="logo Pyzo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.jetbrains.com/idea/"
+                ><p>Intellij Idea</p>
+                <img
+                  src="img/IntelliJ_IDEA_Icon.svg.png"
+                  alt="logo Intellij Idea"
+              /></a>
+            </li>
+            <li>
+              <a href="https://code.visualstudio.com/"
+                ><p>Visual code</p>
+                <img
+                  src="img/visual-studio-code-1.svg"
+                  alt="logo visual studio"
+              /></a>
+            </li>
+            <li>
+              <a href="https://notepad-plus-plus.org/"
+                ><p>NotePad++</p>
+                <img src="img/Notepad++_Logo.svg.png" alt="logo Notepad++"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.r-studio.com/fr/"
+                ><p>Rstudio</p>
+                <img src="img/R_logo.svg.png" alt="logo RStudio"
+              /></a>
+            </li>
+          </div>
+        </ul>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <ul>
+        <li>
+          <p>Adresse email :</p>
+          <p>alexis.chabanne1@etu.univ-grenoble-alpes.fr</p>
+        </li>
+
+        <li>
+          <p>Téléphone :</p>
+          06 51 36 46 41
+        </li>
+        <li>
+          <a href="https://www.instagram.com/alexis_chne/">
+            <img src="img/512px-Instagram.svg_.png" alt="Instagram"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

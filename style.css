@@ -243,7 +243,7 @@ body main section div p {
     border: solid 2px black;
     box-shadow: 5px 5px 0px 0px black;
     border-radius: 10px;
-   
+   font-weight:bold;
 }
 
 #Projet-row {

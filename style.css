@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+a{
+text-decoration:none
+}
 body {
   display: flex;
   flex-wrap: wrap;
@@ -60,6 +62,7 @@ body main {
   flex-direction: row;
   flex-wrap: wrap;
 }
+.Projets  
 #Projets img {
   border-radius: 20px;
   align-self: center;
@@ -230,8 +233,10 @@ body main section div p {
   background-color: #e1dfea;
   margin: 30px;
   border-radius: 10px;
+    gap: 6%;
 }
-
+.Projets a :visited{
+    color:black}
 
 #Projet-row {
   display: flex;
@@ -262,9 +267,6 @@ body main section div p {
 #Projets div p {
   align-self: flex-start;
   width: 100%;
-}
-.Projets {
-  gap: 6%;
 }
 .Projets div{
     width:60%;

@@ -241,7 +241,8 @@ body main section div p {
     transform:scale(1.2);
     margin:15px;
     border: solid 2px black;
-    box-shadow: 2px black;
+    box-shadow: 5px 5px 0px 0px black;
+    border-radius: 10px;
    
 }
 

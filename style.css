@@ -222,7 +222,27 @@ body main section div p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
+#CV:visited {
+color:black;
+}
+footer li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#CV {
+  text-decoration: none;
+  align-self: center;
+  border: solid 2px black;
+  box-shadow: 5px 5px 0px 0px black;
+  border-radius: 10px;
+ font-weight:bold;
+ padding: 10px;
+}
+#CV:hover{
+  transform:scale(0.8);
+  box-shadow: 0px 0px 0px 0px;
+}
 .Projets {
   flex-direction: column;
   display: flex;

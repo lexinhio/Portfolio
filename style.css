@@ -238,6 +238,7 @@ footer li {
   border-radius: 10px;
  font-weight:bold;
  padding: 10px;
+ color:black
 }
 #CV:hover{
   transform:scale(0.8);

@@ -4,6 +4,9 @@ html {
 a{
 text-decoration:none
 }
+#presentation_div ul{
+padding-right:40px;
+}
 body {
   display: flex;
   flex-wrap: wrap;

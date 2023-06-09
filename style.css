@@ -62,8 +62,7 @@ body main {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.Projets  
-#Projets img {
+.Projets img {
   border-radius: 20px;
   align-self: center;
   padding-top: 10px;
